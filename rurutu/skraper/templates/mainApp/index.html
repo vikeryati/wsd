@@ -1,0 +1,26 @@
+{% extends "mainApp/wrapper.html" %}
+{% load static %}
+{% block content %}
+<center> <img src='{% static "images\vvod.png" %}'> </center>
+<center>
+ <form  method="post"  action="input1.php">
+     <center><label>Введите адрес веб-сайта:</label></center>
+       <span e-temp-textContainer-pinning="true">
+           <input type="url" name="URL" size="160%">
+       </span>
+
+        <center>
+             <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6" >
+                        <a href=" " download="meta.txt" class="btn btn-sm animated-button victoria-one" >Отправить</a>
+                    </div>
+             </div>
+        </center>
+
+ </form>
+ </center>
+
+   </div>
+{% endblock %}
+ </body>
+</html>
